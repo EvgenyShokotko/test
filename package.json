@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /test/",
-    "server": "json-server --watch db.json -d 500"
+    "server": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "handlebars": "^4.7.7",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {

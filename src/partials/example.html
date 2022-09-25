@@ -1,0 +1,79 @@
+<table class="table">
+  <tbody class="dynamic"></tbody>
+</table>
+<div class="btn-group">
+  <button type="button">Добавить книгу</button>
+  <button type="button">Удалить книгу</button>
+  <button type="button">Редактировать книгу</button>
+</div>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <form class="form">
+      <label class="form__label" name="title"
+        >Название книги
+        <input type="text" name="title" autofocus />
+      </label>
+      <label class="form__label" name="author"
+        >Автор
+        <input type="text" name="author" />
+      </label>
+      <label class="form__label" name="genres"
+        >Жанр
+        <input type="text" name="genres" />
+      </label>
+      <label class="form__label" name="rating"
+        >Рейтинг
+        <input type="text" name="rating" />
+      </label>
+      <button class="button__create" type="submit">Отправить</button>
+    </form>
+  </div>
+</div>
+<!-- _-------------------- -->
+<div class="backdrop is-hidden" data-modal-delete>
+  <div class="modal">
+    <form class="form__delete">
+      <label class="form__label" name="id"
+        >Введите номер книги
+        <input type="text" name="id" autofocus />
+      </label>
+      <button class="button__delete" type="submit">Отправить</button>
+    </form>
+  </div>
+</div>
+<!-- _______________________ -->
+<div class="backdrop is-hidden" data-modal-render>
+  <div class="modal">
+    <form class="form choise">
+      <label class="form__label" name="id"></label>
+        Введите номер книги
+        <input type="text" name="id" autofocus />
+      </label>
+      <button class="button__choise" type="submit">Отправить</button>
+    </form>
+  </div>
+</div>
+<!-- --------------- -->
+<div class="backdrop is-hidden" data-modal-render-form>
+  <div class="modal">
+    <form class="form-render-last">
+      <label class="form__label" name="title"
+        >Название книги
+        <input class="render-inp" type="text" name="title" autofocus />
+      </label>
+      <label class="form__label" name="author"
+        >Автор
+        <input class="render-inp" type="text" name="author" />
+      </label>
+      <label class="form__label" name="genres"
+        >Жанр
+        <input class="render-inp" type="text" name="genres" />
+      </label>
+      <label class="form__label" name="rating"
+        >Рейтинг
+        <input class="render-inp" type="text" name="rating" />
+      </label>
+      <button class="button__render_form" type="submit">Отправить</button>
+    </form>
+  </div>
+</div>
